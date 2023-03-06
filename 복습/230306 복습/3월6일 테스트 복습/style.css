@@ -1,0 +1,102 @@
+/* 초기값 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  border: 1px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* header */
+#header {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+#header > h1 {
+  margin-bottom: 15px;
+}
+
+/* section */
+#section {
+  margin: 50px;
+}
+
+/* section_info */
+
+#info {
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+
+#info ul {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+#info ul > li > label {
+  display: inline-block;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* section_part */
+
+#part {
+  margin-bottom: 35px;
+  margin-left: 20px;
+}
+
+#part ul {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#part ul > li > label{
+  display: inline-block;
+  padding: 5px;
+}
+
+/* section_motivate */
+
+#motivate {
+  margin-left: 20px;
+}
+
+#motivate > form > ul {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+/* buttons */
+
+#buttons {
+  text-align: center;
+  margin: 0px auto;
+}
+
+#buttons > input {
+  width: 150px;
+  height: 40px;
+  margin: 0px 8px;
+  border: 0;
+}

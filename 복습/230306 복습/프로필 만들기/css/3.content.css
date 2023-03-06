@@ -1,0 +1,89 @@
+/* content */
+
+#content {
+  float: left;
+  overflow: hidden;
+}
+
+#content h2 {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* content_intro */
+
+#content > #intro {
+  width: 450px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#intro p {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+/* content_experience */
+
+#content > #experience {
+  width: 450px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#frontend, #design {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#experience li {
+  margin-top: 10px;
+}
+
+/* content_skills */
+
+#skills {
+  width: 450px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#skills li {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* education */
+#education {
+  width: 450px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#education table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px 7px;
+  text-align: center;
+}
+
+#education caption {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 15px 0;
+}
+
+#education th {
+  background-color: beige;
+}

@@ -1,0 +1,52 @@
+/* profile */
+
+#profile {
+  width: 300px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  float: left;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* profile_intro */
+
+#profile img {
+  margin: 0 50px;
+  margin-top: 40px;
+}
+
+#profile > #profile_intro {
+  margin: 10px 50px;
+}
+
+#profile > #profile_intro > h2 {
+  margin-bottom: 10px;
+}
+
+/* profile_info */
+
+#profile_info {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 50px;
+}
+
+#profile_info > h2 {
+  margin-top: 90px;
+}
+
+#profile_info > ul > li {
+  margin-top: 10px;
+}
+
+/* profile_sns */
+
+#profile_sns {
+  display: inline-block;
+  overflow: hidden;
+  margin: 50px 50px;
+}
+
+#profile_sns > ul > li {
+  margin-top: 10px;
+}

@@ -1,0 +1,28 @@
+/* 초기값 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* container */
+
+#container {
+  background-color: white;
+  width: 900px;
+  height: 100vh;
+  margin: 0px auto;
+}
