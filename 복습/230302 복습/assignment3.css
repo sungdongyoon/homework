@@ -1,0 +1,20 @@
+body {
+  margin: 0px auto;
+}
+
+table, th, td {
+  border: 1px solid antiquewhite;
+}
+
+table {
+  width: 700px;
+  margin: 0px auto;
+}
+
+th, td {
+  padding: 13px;
+}
+
+th {
+  background: antiquewhite;
+}

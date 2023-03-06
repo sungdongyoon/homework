@@ -1,0 +1,25 @@
+fieldset {
+  width: 250px;
+  margin: 30px auto;
+}
+
+#service {
+  font-weight: bold;
+}
+
+#set {
+  text-align: center;
+}
+
+.title {
+  color: green;
+  font-weight: bold;
+}
+
+#btn {
+  text-align: center;
+}
+
+#btn > button {
+  padding: 7px 20px;
+}

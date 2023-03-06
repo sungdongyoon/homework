@@ -1,0 +1,16 @@
+/* main_header */
+#main_header {
+  position: relative;
+  width: 900px;
+  height: 200px;
+  margin: 0px auto;
+}
+
+#header_title {
+  position: absolute;
+  top: 65px;
+  left: 0
+}
+#header_title h1 {
+  margin-bottom: 10px;
+}

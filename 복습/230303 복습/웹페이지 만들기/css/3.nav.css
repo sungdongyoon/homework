@@ -1,0 +1,63 @@
+/* main_nav */
+#main_nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#main_nav ul {
+  overflow: hidden;
+}
+
+#main_nav > ul > li{
+  float: left;
+}
+
+#main_nav > ul > li > a {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+#main_nav > ul > li:first-child > a {
+  border-radius: 20px 0 0 20px;
+} 
+#main_nav > ul > li:last-child > a {
+  border-radius: 0 20px 20px 0;
+}
+#main_nav > ul > li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* sub_nav */
+#sub_nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#sub_nav ul {
+  overflow: hidden;
+}
+
+#sub_nav > ul > li {
+  float: left
+}
+
+#sub_nav > ul > li > a {
+  display: block;
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+}
+#sub_nav > ul > li > a:hover {
+  background-color: black;
+  color: white;
+}
+#sub_nav > ul > li:first-child > a {
+  border-radius: 20px 0 0 20px;
+}
+#sub_nav > ul > li:last-child > a {
+  border-radius: 0 20px 20px 0;
+}

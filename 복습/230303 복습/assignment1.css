@@ -1,0 +1,21 @@
+ul > li {
+  list-style: none;
+  float: left;
+  padding: 15px;
+  color: white;
+}
+
+ul > li:nth-child(2n + 1) {
+  background-color: blue;
+}
+ul > li:nth-child(2n) {
+  background-color: red;
+}
+
+ul > li:first-child {
+  border-radius: 30px 0 0 30px;
+}
+ul > li:last-child {
+  border-radius: 0 30px 30px 0;
+}
+

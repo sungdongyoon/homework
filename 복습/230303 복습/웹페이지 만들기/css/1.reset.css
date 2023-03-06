@@ -1,0 +1,21 @@
+/* 초기값 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}

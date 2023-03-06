@@ -1,0 +1,99 @@
+/* content_section */
+
+
+#content {
+  margin: 0px auto;
+  width: 900px;
+  overflow: hidden;
+}
+
+#main_section {
+  width: 650px;
+  float: left;
+}
+
+.section_article {
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+#main_aside {
+  float: left;
+  width: 200px;
+  margin-left: 30px;
+}
+
+/* 상단 aside */
+input:nth-of-type(1) {
+  display: none;
+}
+input:nth-of-type(1) ~ div:nth-of-type(1) {
+  display: none;
+}
+input:nth-of-type(1):checked ~ div:nth-of-type(1) {
+  display: block;
+}
+
+input:nth-of-type(2) {
+  display: none;
+}
+input:nth-of-type(2) ~ div:nth-of-type(2) {
+  display: none;
+}
+input:nth-of-type(2):checked ~ div:nth-of-type(2) {
+  display: block;
+}
+
+
+/* 메인버튼 */
+.buttons {
+  overflow: hidden;
+}
+
+.buttons > label {
+  display: block;
+  float: left;
+
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 30px;
+  
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+input:nth-of-type(1):checked ~ .buttons > label:nth-of-type(1) {
+  background-color: black;
+  color: white;
+}
+input:nth-of-type(2):checked ~ .buttons > label:nth-of-type(2) {
+  background-color: black;
+  color: white;
+}
+
+/* 하단 aside */
+.item {
+  border: 1px solid black;
+  border-top: none;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  float: left;
+  margin-right: 10px;
+}
+
+.desctiption {
+  float: left;
+}
+.description > strong {
+  display: block;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
